@@ -9,4 +9,9 @@ class Driver{
       return trip.driverId === this.id 
     })
   }
+  passengers(){
+    return driver.passengers.filter(passenger => {
+      return passenger.driverId == this.id
+    })
+  }
 }
