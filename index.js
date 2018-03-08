@@ -10,7 +10,7 @@ class Driver{
     system.drivers.push(this)
   }
   trips(){
-    return driver.trips.filter(trip => {
+    return system.trips.filter(trip => {
       return trip.driverId === this.id 
     })
   }
