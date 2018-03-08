@@ -15,8 +15,8 @@ class Driver{
     })
   }
   passengers(){
-    return this.trips.passengers.filter(passenger => {
-      return passenger.driverId == this.id
+    return this.trips().map(trip => {
+      return trip.passenger()
     })
   }
 }
