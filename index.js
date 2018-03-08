@@ -1,4 +1,4 @@
-
+let system = {drivers: [], passengers: []
 
 class Driver{
   constructor(name){
