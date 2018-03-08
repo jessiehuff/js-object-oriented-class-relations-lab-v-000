@@ -7,7 +7,7 @@ class Driver{
   constructor(name){
     this.id = ++driverId
     this.name = name 
-    trip.driver.push(this)
+    system.drivers.push(this)
   }
   trips(){
     return driver.trips.filter(trip => {
